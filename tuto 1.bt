@@ -8,7 +8,51 @@
       "label": ""
     },
     "properties": {},
-    "children": [],
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "active": "false"
+            },
+            "children": [],
+            "id": "61df1cba-48ee-4853-ad2b-3532459117f7",
+            "type": "priority"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "speech",
+              "inputParams": [
+                {
+                  "key": "message",
+                  "type": "string",
+                  "value": "hello"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "30a3823e-bd0b-44a1-9bd5-e6e5850842a7",
+            "type": "action"
+          }
+        ],
+        "id": "383228bf-00b0-47b1-b982-8c17cdf480a2",
+        "type": "sequence"
+      }
+    ],
     "id": "aa591f7b-bfe0-4e11-b789-651586b78913"
   }
 ]
